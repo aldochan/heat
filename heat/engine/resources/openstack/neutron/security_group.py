@@ -138,7 +138,7 @@ class SecurityGroup(neutron.NeutronResource):
             properties.Schema.STRING,
             _('Description of the security group.'),
             update_allowed=True,
-            default='',
+            default=''
         ),
         RULES: properties.Schema(
             properties.Schema.LIST,
